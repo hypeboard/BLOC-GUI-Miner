@@ -6,13 +6,23 @@
     },
     {
       "coin_type": "turtlecoin",
-      "coin_algo": "cryptonight_lite_v7"
+      "coin_algo": "cryptonight_turtle"
     },
     {
       "coin_type": "ryo",
       "coin_algo": "ryo"
     }
   ],
+  "xmrigAlgo": {
+    "bloc": "cryptonight-heavy",
+    "turtlecoin": "cryptonight-turtle",
+    "ryo": "cryptonight-heavy"
+  },
+  "xmrigVariant": {
+    "bloc": "xhv",
+    "turtlecoin": "1",
+    "ryo": "1"
+  },
   "names": {
     "bloc": "BLOC",
     "turtlecoin": "TurtleCoin",
